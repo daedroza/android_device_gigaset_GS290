@@ -26,7 +26,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.mtk_audio_ape_support=1 \
     ro.vendor.mtk_audio_tuning_tool_ver=V2.2 \
     ro.vendor.mtk_besloudness_support=1 \
-    ro.vendor.mtk_aal_support=1
+    ro.vendor.mtk_aal_support=1 \
+    vendor.audio.feature.a2dp_offload.enable=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
