@@ -144,6 +144,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.GS290
 
+# Magisk
+PRODUCT_HOST_PACKAGES += \
+    boot_signer
+
 # Media
 PRODUCT_PACKAGES += \
     libopus \
